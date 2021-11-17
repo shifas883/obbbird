@@ -1,7 +1,7 @@
 
 void main() {
 
-  final bd=Bird("parr", 55);
+  final bd=Bird("parrot",5);
   bd.name="parrot";
   bd.weight=4;
 
@@ -20,7 +20,6 @@ class Bird{
   Bird(String name,var weight){
     this.name=name;
     weight=weight;
-
     fly=0;
 
   }
